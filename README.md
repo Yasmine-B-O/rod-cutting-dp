@@ -41,30 +41,3 @@ Rod cutting is a canonical introduction to dynamic programming: it has **overlap
 (the optimal solution for a rod of length `n` is built from optimal solutions to shorter rods). The same
 pattern — recursion → memoization → bottom-up tabulation — applies directly to coin change, knapsack,
 longest common subsequence, edit distance, and optimal binary search tree construction.
-
-## Running it
-
-```bash
-pip install -r requirements.txt
-jupyter notebook rod_cutting.ipynb
-```
-
-**Requirements:** Python 3.10+, `numpy`, `matplotlib`
-
-## Repository structure
-
-```
-.
-├── rod_cutting.ipynb   # main notebook
-├── requirements.txt
-└── README.md
-```
-
-## Related work
-
-- [Optimal Binary Search Tree (DP)](https://github.com/YOUR_USERNAME/optimal-bst-dp) — applies the same
-  bottom-up DP pattern to building search trees that minimize expected search cost given key frequencies.
-
-## Author
-
-Yasmine Bouaboud — Computing student, UM6P
